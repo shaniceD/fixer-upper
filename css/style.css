@@ -1,10 +1,19 @@
 body {
-  width: 60%;
-  margin: 0 auto;
+    background: red;
+    color: blue;
+    font-size: 10px;
 }
 
 table, tr, td, th {
-  border: 1px solid black;
   border-collapse: collapse;
-  padding: 5px;
+}
+
+.bacon-info {
+    background: yellow;
+    color: green;
+}
+
+.bacon-answer {
+    color: white;
+    font-family: "Times New Roman";
 }
