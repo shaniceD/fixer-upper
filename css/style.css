@@ -1,19 +1,69 @@
 body {
-    background: red;
-    color: blue;
-    font-size: 10px;
+    
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+    
+    background: beige;
+    color: black;
+    font-size: 16px;
 }
 
-table, tr, td, th {
-  border-collapse: collapse;
+.u {
+    text-decoration: underline;
 }
 
-.bacon-info {
-    background: yellow;
-    color: green;
+.mets {
+    background: #ffa500;
+    
 }
 
-.bacon-answer {
+.dodgers {
+    background: #0000ff;
     color: white;
-    font-family: "Times New Roman";
+}
+
+.cubs {
+    
+}
+
+.pittsburgh {
+    background: #ffff00;
+    color:#082687;
+}
+
+.cardinals {
+    background: #ff7c7c;
+}
+
+table, tr, th, td 
+{
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.table-container {
+    background: white;
+    color: black;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:link
+{
+    color:blue;
+}
+
+.pittsburgh a:link
+{
+    color: black;   
+}
+
+.pittsburgh a:visited
+{
+    color: blue;
 }
